@@ -70,42 +70,41 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    cheat
-    docker_compose
-    Fabric
-    fd
-    ffmpeg
-    firefox
-    franz
-    gcc
-    geany
-    gettext
-    gnome3.gedit
-    gnumake
-    git
-    google-chrome-dev
-    htop
-    httpie
-    httpstat
-    libffi
-    libreoffice
-    meld
-    nginx
-    nodejs
-    php
-    pipenv
-    purescript
-    jetbrains.pycharm-professional
-    python36Full
-    stdenv
+    # basic command line tools
+     htop unzip wget whois
+
+    # browsers
+    firefox google-chrome-dev
+
+    # development
+    ffmpeg gcc gettext nodejs,php purescript python36Full
+
+    # editors
+    geany gnome3.gedit jetbrains.pycharm-professional sublime vim
+
+    # games
     steam
-    sublime
-    terminator
-    unzip
-    vim
+
+    # instant-messengers
+    franz
+
+    # misc
+    cheat fd terminator
+
+    # office
+    libreoffice
+
+    # version-management
+    git meld
+
+    # videos
     vlc
-    wget
-    whois
+
+    # virtualization
+    docker_compose
+
+    # web-servers
+    nginx
   ]
   ++ (with pkgs.nodePackages; [
     bower
@@ -122,7 +121,7 @@
   ;
   
   services.mysql = {
-      enable = true;
-      package = pkgs.mysql;
+    enable = true;
+    package = pkgs.mysql;
   };
 }
