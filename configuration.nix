@@ -76,7 +76,7 @@
     firefox google-chrome-dev
 
     # development
-    ffmpeg gcc gettext nodejs,php purescript python36Full
+    ffmpeg gcc gettext nodejs php purescript python36Full
 
     # editors
     geany gnome3.gedit jetbrains.pycharm-professional sublime vim
