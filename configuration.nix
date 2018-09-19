@@ -8,7 +8,6 @@
   ];
 
   boot.loader = {
-    grub.device = "/dev/nvme0n1p";
     systemd-boot.enable = true;
     efi.canTouchEfiVariables = true;
   };
