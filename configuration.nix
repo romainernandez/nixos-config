@@ -12,12 +12,6 @@
     efi.canTouchEfiVariables = true;
   };
 
-  fileSystems."/data" = {
-    label = "data";
-    device = "/dev/sda1";
-    fsType = "ext4";
-  };
-
   system.stateVersion = "18.03";
   system.autoUpgrade.enable = true;
 
