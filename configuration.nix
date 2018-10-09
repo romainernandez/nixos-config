@@ -82,10 +82,13 @@
     franz
 
     # misc
-    cheat fd terminator
+    calibre cheat fd terminator
 
     # office
     libreoffice
+
+    # p2p
+    deluge
 
     # version-management
     git meld
