@@ -24,5 +24,8 @@
     "..3" = "cd ../../..";
     "..4" = "cd ../../../..";
     "pp" = "pycharm-professional";
+    "cdwp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/";
+    "cdwpp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/web/wp-content/plugins/";
+    "sdn" = "shutdown -h now";
   };
 }
