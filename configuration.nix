@@ -56,7 +56,7 @@
   };
   networking.extraHosts =
   ''
-    127.0.0.1 wordpress.local test.wordpress.local profiling.local localhost
+    127.0.0.1 wordpress.local test.wordpress.local profiling.local localhost composer.yelsterdigital.com
     ::1  localhost
   '';
 
