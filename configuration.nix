@@ -64,7 +64,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     # basic command line tools
-     htop unrar unzip wget whois
+    htop unrar unzip wget whois imagemagick
 
     # browsers
     firefox google-chrome-dev
