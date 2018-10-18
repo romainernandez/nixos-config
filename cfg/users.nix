@@ -27,5 +27,6 @@
     "cdwp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/";
     "cdwpp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/web/wp-content/plugins/";
     "sdn" = "shutdown -h now";
+    "la" = "ls -la";
   };
 }
