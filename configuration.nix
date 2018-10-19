@@ -46,7 +46,6 @@
   virtualisation.docker.enable = true;
   
   networking = {
-    hostName = "midgard";
     networkmanager.enable = true;
     # wireless.enable = true;
     wireless.userControlled.enable = true;
