@@ -88,6 +88,9 @@
 
     # p2p
     deluge
+    
+    #tools
+    drive
 
     # version-management
     git meld
