@@ -27,6 +27,14 @@
     "cdwp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/";
     "cdwpp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/web/wp-content/plugins/";
     "cdd" = "cd ~/Documents/";
-    "la" = "ls -la";
+    "la" = "ls -lah";
+    "vc" = "vim /home/rernandez/Documents/nixos-config";
+
+    # Git
+    "gs" = "git status";
+    "ga" = "git add";
+    "gc" = "git commit";
+    "gd" = "git diff";
+    "gist" = "git log --graph --abbrev-commit --date=short --all"; 
   };
 }
