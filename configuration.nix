@@ -44,7 +44,8 @@
   services.printing.enable = true; # Enable CUPS to print documents.
 
   virtualisation.docker.enable = true;
-  
+  virtualisation.virtualbox.host.enable = true;
+
   networking = {
     networkmanager.enable = true;
     # wireless.enable = true;
@@ -100,7 +101,7 @@
     vlc
 
     # virtualization
-    docker_compose
+    docker_compose vagrant ansible
 
     # web-servers
     nginx
