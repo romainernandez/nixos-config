@@ -6,7 +6,6 @@ vim_configurable.customize {
     # This allows to have multiple vim packages installed (e.g. with a different set of plugins)
     name = "vim";
     vimrcConfig.customRC = ''
-        # Here one can specify what usually goes into `~/.vimrc` 
         syntax enable
     '';
 }
