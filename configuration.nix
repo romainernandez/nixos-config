@@ -73,6 +73,7 @@
 
     # editors
     geany gnome3.gedit jetbrains.pycharm-professional sublime vim
+    (import ./cfg/vim.nix)
 
     # games
     steam
