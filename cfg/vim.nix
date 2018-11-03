@@ -7,5 +7,6 @@ vim_configurable.customize {
     name = "vim";
     vimrcConfig.customRC = ''
         syntax enable
+        colorscheme desert
     '';
 }
