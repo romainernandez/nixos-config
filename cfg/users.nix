@@ -28,7 +28,8 @@
     "cdwpp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/web/wp-content/plugins/";
     "cdd" = "cd ~/Documents/";
     "la" = "ls -lah";
-    "vc" = "vim /home/rernandez/Documents/nixos-config";
+    "vc" = "vim /home/rernandez/Documents/nixos-config/";
+    "cdc" = "cd /home/rernandez/Documents/nixos-config/";
 
     # Git
     "gs" = "git status";
