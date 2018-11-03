@@ -72,7 +72,7 @@
     ffmpeg gcc gettext nodejs php purescript python36Full
 
     # editors
-    geany gnome3.gedit jetbrains.pycharm-professional sublime vim
+    geany gnome3.gedit jetbrains.pycharm-professional sublime
     (import ./cfg/vim.nix)
 
     # games
