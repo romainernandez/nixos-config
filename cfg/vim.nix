@@ -8,5 +8,9 @@ vim_configurable.customize {
     vimrcConfig.customRC = ''
         syntax enable
         colorscheme desert
+        set incsearch
+        set hlsearch
+        set list
+        set backspace=indent,eol,start
     '';
 }
