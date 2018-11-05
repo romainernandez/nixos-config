@@ -45,6 +45,7 @@
 
   virtualisation.docker.enable = true;
   virtualisation.virtualbox.host.enable = true;
+  services.nfs.server.enable = true;
 
   networking = {
     networkmanager.enable = true;

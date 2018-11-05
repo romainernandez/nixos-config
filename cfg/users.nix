@@ -1,8 +1,8 @@
 {config, pkgs, ...}:
 
 {
-  nix.trustedUsers = [ "root" "rernandez" ];
-
+  nix.trustedUsers = [ "root" "rernandez" "vagrant" ];
+  
   users.extraUsers.rernandez = {
     createHome = true;
     description = "Romain Ernandez";
