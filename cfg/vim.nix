@@ -6,11 +6,22 @@ vim_configurable.customize {
     # This allows to have multiple vim packages installed (e.g. with a different set of plugins)
     name = "vim";
     vimrcConfig.customRC = ''
-        syntax enable
+        syntax on
         colorscheme desert
         set incsearch
         set hlsearch
-        set list
         set backspace=indent,eol,start
+        set nocompatible
+        filetype indent plugin on
+        set hidden
+        set wildmenu
+        set showcmd
+        set nostartofline
+        set ruler
+        set laststatus=2
+        set number
+        set shiftwidth=4
+        set softtabstop=4
+        set expandtab
     '';
 }
