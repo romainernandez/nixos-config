@@ -106,6 +106,8 @@
 
     # web-servers
     nginx
+
+    konversation
   ]
   ++ (with pkgs.nodePackages; [
     bower
