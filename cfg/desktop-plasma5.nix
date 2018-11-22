@@ -18,7 +18,8 @@
     kdeApplications.dolphin-plugins
     kdeFrameworks.kconfig
     kdeFrameworks.kconfigwidgets
-	kdeApplications.spectacle
-	kdeplasma-addons
+	  kdeApplications.spectacle
+	  kdeplasma-addons
+    kdeApplications.kcontacts
   ];
 }
