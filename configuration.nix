@@ -72,7 +72,7 @@
     firefox google-chrome-dev
 
     # development
-    ffmpeg gcc gettext nodejs php purescript python36Full pipenv
+    ffmpeg gcc gettext nodejs php purescript python36Full pipenv pgadmin
 
     # editors
     geany gnome3.gedit jetbrains.pycharm-professional sublime
@@ -118,6 +118,7 @@
   ++ (with pkgs.python36Packages; [
     docker_compose
     virtualenv
+    Fabric
   ])
   ++ (with pkgs.phpPackages; [
     composer
