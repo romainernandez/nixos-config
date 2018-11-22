@@ -59,6 +59,7 @@
   ''
     127.0.0.1 wordpress.local test.wordpress.local profiling.local localhost composer.yelsterdigital.com
     ::1  localhost
+    192.168.50.3 rernandez-VirtualBox
   '';
 
   # List packages installed in system profile. To search, run:
