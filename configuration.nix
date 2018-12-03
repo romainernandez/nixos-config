@@ -75,7 +75,7 @@
     ffmpeg gcc gettext nodejs php purescript python35Full pipenv pgadmin Fabric
 
     # editors
-    geany gnome3.gedit jetbrains.pycharm-professional sublime
+    geany gnome3.gedit jetbrains.pycharm-community sublime
     (import ./cfg/vim.nix)
 
     # games
