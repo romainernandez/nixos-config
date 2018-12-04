@@ -128,4 +128,9 @@
     enable = true;
     package = pkgs.mysql;
   };
+
+  services.postgresql = {
+    enable = true;
+    package = pkgs.postgresql100;
+  };
 }
