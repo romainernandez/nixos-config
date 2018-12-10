@@ -109,6 +109,7 @@
     nginx
 
     konversation
+    openssl
   ]
   ++ (with pkgs.nodePackages; [
     bower
