@@ -57,7 +57,7 @@
   };
   networking.extraHosts =
   ''
-    127.0.0.1 wordpress.local test.wordpress.local profiling.local localhost composer.yelsterdigital.com
+    127.0.0.1 wordpress.local test.wordpress.local profiling.local localhost composer.yelsterdigital.com authweb.local fileapi.local authfront.local
     ::1  localhost
     192.168.50.3 rernandez-VirtualBox
   '';
