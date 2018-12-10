@@ -119,6 +119,7 @@
   ++ (with pkgs.python35Packages; [
     docker_compose
     virtualenv
+    sphinx
   ])
   ++ (with pkgs.phpPackages; [
     composer
