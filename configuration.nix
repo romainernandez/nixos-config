@@ -110,6 +110,7 @@
 
     konversation
     openssl
+    openvpn
   ]
   ++ (with pkgs.nodePackages; [
     bower
