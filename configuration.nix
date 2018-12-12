@@ -72,7 +72,7 @@
     firefox google-chrome-dev
 
     # development
-    ffmpeg gcc gettext nodejs-8_x php purescript python35Full pipenv pgadmin Fabric
+    ffmpeg gcc gettext nodejs-8_x php purescript python35Full pipenv pgadmin Fabric gnumake
 
     # editors
     geany gnome3.gedit jetbrains.pycharm-community sublime
