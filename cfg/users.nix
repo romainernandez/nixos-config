@@ -30,6 +30,7 @@
     "la" = "ls -lah";
     "vc" = "vim /home/rernandez/Documents/nixos-config/";
     "cdc" = "cd /home/rernandez/Documents/nixos-config/";
+    "c" = "clear";
 
     # Git
     "gs" = "git status";
