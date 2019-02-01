@@ -65,50 +65,44 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    # basic command line tools
-    htop unrar unzip wget whois imagemagick
-
     # browsers
     firefox google-chrome-dev
 
-    # development
-    ffmpeg gcc gettext nodejs-8_x php purescript python35Full pipenv pgadmin Fabric gnumake
-
     # editors
-    geany gnome3.gedit jetbrains.pycharm-community sublime
+    geany gnome3.gedit jetbrains.pycharm-community sublime vscode
     (import ./cfg/vim.nix)
 
-    # games
-    steam
+    # applications
+    calibre deluge drive franz ffmpeg konversation imagemagick libreoffice steam unrar unzip vlc
 
-    # instant-messengers
-    franz
+    # shells
+    terminator
 
-    # misc
-    calibre cheat fd terminator
-
-    # office
-    libreoffice
-
-    # p2p
-    deluge
-    
-    #tools
-    drive
-
-    # version-management
-    git meld
-
-    # videos
-    vlc
-
-    # virtualization
-    docker_compose vagrant ansible
-
-    # web-servers
+    # development
+    ansible
+    cheat
+    docker_compose
+    Fabric 
+    fd
+    gcc 
+    gettext 
+    git
+    gnumake 
+    htop
+    meld
     nginx
+    nodejs-8_x 
+    pgadmin 
+    php 
+    pipenv 
+    purescript 
+    python35Full 
+    wget
+    whois
+    vagrant
+    yarn
 
-    konversation
+    # others
     openssl
     openvpn
   ]
