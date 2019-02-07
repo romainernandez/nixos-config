@@ -113,6 +113,7 @@
   ])
   ++ (with pkgs.python35Packages; [
     docker_compose
+    ipython
     virtualenv
     sphinx
   ])
