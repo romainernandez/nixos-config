@@ -96,6 +96,7 @@
     php 
     pipenv 
     python35Full 
+    sqlite
     wget
     whois
     vagrant
