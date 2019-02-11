@@ -12,7 +12,7 @@
     efi.canTouchEfiVariables = true;
   };
 
-  system.stateVersion = "18.03";
+  system.stateVersion = "18.09";
   system.autoUpgrade.enable = true;
 
   i18n = {
@@ -95,7 +95,6 @@
     pgadmin 
     php 
     pipenv 
-    purescript 
     python35Full 
     wget
     whois
