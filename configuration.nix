@@ -97,6 +97,7 @@
     pipenv 
     python35Full 
     sqlite
+    sqlitebrowser
     wget
     whois
     vagrant
