@@ -52,7 +52,6 @@
     # wireless.enable = true;
     wireless.userControlled.enable = true;
     wireless.networks = {
-      "Linked-Living" = {};
     };
   };
   networking.extraHosts =
