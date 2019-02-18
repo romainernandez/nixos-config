@@ -87,10 +87,12 @@
     gettext 
     git
     gnumake 
+    heroku
     htop
     meld
     nginx
     nodejs-8_x 
+    ntfs3g
     pgadmin 
     php 
     pipenv 
