@@ -95,8 +95,7 @@
     ntfs3g
     pgadmin 
     php 
-    pipenv 
-    python35Full 
+    python35Full
     sqlite
     sqlitebrowser
     wget
@@ -113,14 +112,11 @@
     node2nix
     pulp
   ])
-  ++ (with pkgs.python35Packages; [
-    docker_compose
-    ipython
-    virtualenv
-    sphinx
-  ])
   ++ (with pkgs.phpPackages; [
     composer
+  ])
+  ++ (with pkgs.python35Packages; [
+    ipython
   ])
   ;
   
