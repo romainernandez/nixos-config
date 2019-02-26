@@ -51,12 +51,10 @@
     networkmanager.enable = true;
     # wireless.enable = true;
     wireless.userControlled.enable = true;
-    wireless.networks = {
-    };
   };
   networking.extraHosts =
   ''
-    127.0.0.1 wordpress.local test.wordpress.local profiling.local localhost composer.yelsterdigital.com authweb.local fileapi.local authfront.local
+    127.0.0.1 localhost
     ::1  localhost
     192.168.50.3 rernandez-VirtualBox
   '';
