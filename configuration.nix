@@ -66,7 +66,7 @@
     firefox google-chrome-dev
 
     # editors
-    geany gnome3.gedit jetbrains.pycharm-community sublime vscode
+    geany vscode
     (import ./cfg/vim.nix)
 
     # applications
