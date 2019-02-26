@@ -107,8 +107,6 @@
   ]
   ++ (with pkgs.nodePackages; [
     bower
-    node2nix
-    pulp
   ])
   ++ (with pkgs.phpPackages; [
     composer
