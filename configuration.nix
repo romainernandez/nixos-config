@@ -93,6 +93,7 @@
     ntfs3g
     pgadmin 
     php 
+    pipenv
     python35Full
     sqlite
     sqlitebrowser
