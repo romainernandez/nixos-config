@@ -87,6 +87,7 @@
     gnumake 
     heroku
     htop
+    lsof
     meld
     nginx
     nodejs-8_x 
