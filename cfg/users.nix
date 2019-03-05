@@ -31,8 +31,6 @@
     "vc" = "vim /home/rernandez/Documents/nixos-config/";
     "cdc" = "cd /home/rernandez/Documents/nixos-config/";
     "c" = "clear";
-    "python" = "python3";
-
 
     # Git
     "gs" = "git status";
