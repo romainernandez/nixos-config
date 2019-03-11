@@ -78,6 +78,7 @@
     # development
     ansible
     cheat
+    clojure
     docker_compose
     Fabric 
     fd
