@@ -41,5 +41,6 @@
     "gd" = "git diff";
     "gist" = "git log --graph --abbrev-commit --date=short --all"; 
     "gp" = "git push";
+    "grh" = "git reset HEAD~";
   };
 }
