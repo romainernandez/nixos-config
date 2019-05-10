@@ -32,6 +32,7 @@
     "cdc" = "cd /home/rernandez/Documents/nixos-config/";
     "c" = "clear";
     "h" = "history";
+    "pytest" = "pytest -s";
 
     # Git
     "g" = "git";
@@ -42,5 +43,6 @@
     "gist" = "git log --graph --abbrev-commit --date=short --all"; 
     "gp" = "git push";
     "grh" = "git reset HEAD~";
+    "gl" = "git log";
   };
 }
