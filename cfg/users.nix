@@ -1,7 +1,7 @@
 {config, pkgs, ...}:
 
 {
-  nix.trustedUsers = [ "root" "rernandez" "vagrant" ];
+  nix.trustedUsers = [ "root" "rernandez" ];
   
   users.extraUsers.rernandez = {
     createHome = true;
@@ -13,7 +13,6 @@
     shell = pkgs.fish;
     isNormalUser = true;
     name = "rernandez";
-    openssh.authorizedKeys.keys = [ ];
     initialPassword = "initialpw";
   };
 
@@ -24,8 +23,6 @@
     "..3" = "cd ../../..";
     "..4" = "cd ../../../..";
     "pp" = "pycharm-professional";
-    "cdwp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/";
-    "cdwpp" = "cd ~/Documents/Yelster/wordpress-dev/wordpress/web/wp-content/plugins/";
     "cdd" = "cd ~/Documents/";
     "la" = "ls -lah";
     "vc" = "vim /home/rernandez/Documents/nixos-config/";
