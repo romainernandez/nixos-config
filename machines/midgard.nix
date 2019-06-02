@@ -8,32 +8,30 @@
     [ <nixpkgs/nixos/modules/installer/scan/not-detected.nix>
     ];
 
-  boot.initrd.availableKernelModules = [ "xhci_pci" "ahci" "nvme" "usb_storage" "sd_mod" ];
+  boot.initrd.availableKernelModules = [ "xhci_pci" "ahci" "nvme" "usbhid" "usb_storage" "sd_mod" ];
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/a41848a2-3fc5-459b-98e9-f22f3e7e6c10";
+    { device = "/dev/disk/by-uuid/45c850d0-87d1-46df-bb08-9cc23a4022a1";
       fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/2632-8D7E";
+    { device = "/dev/disk/by-uuid/392B-CDA9";
       fsType = "vfat";
     };
 
   fileSystems."/data" = {
     label = "data";
-    device = "/dev/sda1";
+    device = "/dev/disk/by-uuid/6c201556-9c9c-4f4d-a183-1ea2a35eb003";
     fsType = "ext4";
   };
 
   swapDevices =
-    [ { device = "/dev/disk/by-uuid/ddf8cae1-445a-4c7b-82db-3695dd0cf62c"; }
+    [ { device = "/dev/disk/by-uuid/0f930506-dee7-463e-b525-41b55cf2e244"; }
     ];
 
   nix.maxJobs = lib.mkDefault 4;
   powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
-
-  networking.hostName = "midgard";
 }
