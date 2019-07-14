@@ -45,11 +45,11 @@
     firefox google-chrome-dev
 
     # editors
-    geany
+    geany jetbrains.pycharm-professional
     (import ./cfg/vim.nix)
 
     # applications
-    calibre deluge ffmpeg konversation imagemagick libreoffice unrar unzip vlc
+    deluge ffmpeg konversation imagemagick libreoffice unrar unzip vlc okular
 
     # shells
     terminator
@@ -73,13 +73,17 @@
     pgadmin 
     php 
     pipenv
-    python35Full
+    python37Full
     sqlite
     sqlitebrowser
     wget
     whois
     yarn
-  ];
+  ]
+  ++ (with pkgs.python37Packages; [
+    virtualenv
+  ])
+  ;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
