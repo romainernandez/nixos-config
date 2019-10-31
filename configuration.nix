@@ -49,7 +49,7 @@
     (import ./cfg/vim.nix)
 
     # applications
-    deluge ffmpeg konversation imagemagick libreoffice unrar unzip vlc okular
+    deluge ffmpeg konversation imagemagick libreoffice steam unrar unzip vlc okular
 
     # shells
     terminator
