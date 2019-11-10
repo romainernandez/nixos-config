@@ -127,8 +127,16 @@
     127.0.0.1 localhost
     ::1  localhost
   '';
-
-
+  
+  networking.networkmanager.dns = lib.mkForce "none"; # networkmaneger not to overwrite /etc/resolv.conf
+  services.resolved.enable = lib.mkForce false; # just to be sure
+  environment.etc."resolv.conf" = {
+    text = lib.optionalString (config.networking.nameservers != []) (
+       lib.concatMapStrings (ns: "nameserver ${ns}\n") config.networking.nameservers
+     );
+    mode = "0444";
+  };
+  
   # This value determines the NixOS release with which your system is to be
   # compatible, in order to avoid breaking some software such as database
   # servers. You should change this only after NixOS release notes say you
